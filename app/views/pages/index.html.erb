@@ -1,0 +1,241 @@
+<body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+            <div class="logo-difatoria">    
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-logo-Di-fattoria"src="<%=asset_path 'logo_Di_fattoria.svg'%>" alt="Pizza Di Fattoria" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+            </div>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Nosotros</a></li> -->
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Nuestros Productos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contáctenos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://api.whatsapp.com/send?phone=573104925937&text=Haga%20su%20pedido" target="_blank">Ventas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">DI FATTORIA</h1>
+                    <h2 class="text-blue-50 mx-auto mt-2 mb-5">Comparte con quien quieras tu gusto por la pizza!</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#projects">Nuestros Productos</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <!-- <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+                        <p class="text-white">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="/assets/images/ipad.png" alt="" />
+            </div>
+        </section> -->
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container">
+                <!-- Featured Project Row-->
+                <!-- <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Shoreline</h4>
+                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Project One Row-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="<%=asset_path 'Pizza_Di_Fattoria.jpg'%>" alt="Pizza Di Fattoria" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-red text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Di Fattoria</h4>
+                                    <li class="mb-0 text-white">Pimentón</li>
+                                    <li class="mb-0 text-white">Cebolla</li>
+                                    <li class="mb-0 text-white">Tomates</li>
+                                    <li class="mb-0 text-white">Champiñones</li>
+                                    <li class="mb-0 text-white">Aceitunas</li>
+                                    <li class="mb-0 text-white">Sukiny</li>
+                                    <p class="mb-0 text-white">Además! Queso. Pimienta y orégano (opcional).</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row justify-content-center no-gutters ">
+                    <div class="col-lg-6"><img class="img-fluid" src="<%=asset_path 'Pizza_Mexicana.jpg'%>" alt="Pizza Mexicana" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-red text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Mexicana</h4>
+                                    <li class="mb-0 text-white">Pimentón</li>
+                                    <li class="mb-0 text-white">Pico'e gallo</li>
+                                    <li class="mb-0 text-white">Carne molida</li>
+                                    <li class="mb-0 text-white">Maiz dulce</li>
+                                    <li class="mb-0 text-white">Jalapeños</li>
+                                    <p class="mb-0 text-white">Además! Queso, jamón. Pimienta y orégano (opcional).</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Three Row-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="<%=asset_path 'Pizza_Carnes.jpg'%>" alt="Pizza Carnes" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-red text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Carnes</h4>
+                                <li class="mb-0 text-white">Jamón</li>
+                                <li class="mb-0 text-white">Salami</li>
+                                <li class="mb-0 text-white">Peperoni</li>
+                                <p class="mb-0 text-white">Además! Queso. Pimienta y orégano (opcional)</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Four Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6"><img class="img-fluid" src="<%=asset_path 'Pizza_Hawaiana.jpg'%>" alt="Pizza Hawaiana" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-red text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Hawaiana</h4>
+                                    <li class="mb-0 text-white">Piña fresca</li>
+                                    <li class="mb-0 text-white">Jamón</li>
+                                    <li class="mb-0 text-white">Queso</li>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Five Row-->
+                <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="" alt="Pizza Pollo Champiñones" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-red text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Pollo Champiñones</h4>
+                                <li class="mb-0 text-white">Pollo</li>
+                                <li class="mb-0 text-white">Champiñones</li>
+                                <p class="mb-0 text-white">Además! Queso, jamón. Pimienta y orégano (opcional)</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Project Six Row-->
+                <!--<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="" alt="Pizza del Campo" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-red text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Del Campo</h4>
+                                    <li class="mb-0 text-white">Pollo</li>
+                                    <li class="mb-0 text-white">Maiz dulce</li>
+                                    <li class="mb-0 text-white">Tocineta</li>
+                                    <p class="mb-0 text-white">Además! Queso, jamón. Pimienta y orégano (opcional)</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h2 class="text-blue-50 mx-auto mt-2 mb-5">Pregunta también por nuestra pizza de pollo con champiñones, Pizza Del Campo y Lasañas. También deliciosos panzerotti y perros calientes</h2>                    
+                    
+                    <!--<a class="btn-WhatsApp btn-primary js-scroll-trigger" href="https://api.whatsapp.com/send?phone=573104925937&text=Haga%20su%20pedido" target="_blank"><img class="img-WhatsApp" src="<%=asset_path 'WhatsApp_Logo_6.png'%>" alt="WhatsApp"/> 3104925937</a>-->
+                </div>
+            </div>
+        </section>
+        <!-- Signup-->
+        
+        <!-- Contact-->
+        <section class="contact-section bg-red" id="signup">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <!-- <i class="fas fa-map-marked-alt text-primary mb-2"></i> -->
+                                <h4 class="text-uppercase m-0">Medios de pago</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">Efectivo, Daviplata, Transferencia bancaria</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a>difattoria@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Pedidos al WhatsApp</h4>
+                                <hr class="my-4" />
+                                <a href="https://api.whatsapp.com/send?phone=573104925937&text=Haga%20su%20pedido" target="_blank"><div class="small text-black-50">3104925937</div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div> -->
+            </div>
+            <div class="btn-whatsapp animate__animated animate__backInLeft">
+            <a href="https://api.whatsapp.com/send?phone=573104925937&text=Haga%20su%20pedido" target="_blank"> <img class="img-WhatsApp" src="<%=asset_path 'Whatsapp_Logo_2.svg'%>" alt="WhatsApp"/></a>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-red small text-center text-white"><div class="container">Copyright © Di Fattoria 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ed806779e5f6944228fd2d5/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+    </body>
+</html>
